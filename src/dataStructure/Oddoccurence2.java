@@ -9,10 +9,8 @@ public class Oddoccurence2 {
 
 	public static void main(String[] args) {
 		int array[] = { 1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 100, 400, 15, 15, 15, 15, 15, 15, 15, 15 };
-		
 		System.out.println(findOddTimesAppearNum(array));
-//		List<Integer> nums = findOddTimesAppearNum(array);
-//		System.out.println(Arrays.toString(nums.toArray()));
+
 	}
 
 	public static List<Integer> findOddTimesAppearNum(int[] arr) {
